@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tanikellanjali/portfolio-1.git/static/css/main.4c13bc11.css",
+    "main.js": "/tanikellanjali/portfolio-1.git/static/js/main.0c219722.js",
+    "static/js/488.fcc6b590.chunk.js": "/tanikellanjali/portfolio-1.git/static/js/488.fcc6b590.chunk.js",
+    "index.html": "/tanikellanjali/portfolio-1.git/index.html",
+    "main.4c13bc11.css.map": "/tanikellanjali/portfolio-1.git/static/css/main.4c13bc11.css.map",
+    "main.0c219722.js.map": "/tanikellanjali/portfolio-1.git/static/js/main.0c219722.js.map",
+    "488.fcc6b590.chunk.js.map": "/tanikellanjali/portfolio-1.git/static/js/488.fcc6b590.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c13bc11.css",
+    "static/js/main.0c219722.js"
+  ]
+}
