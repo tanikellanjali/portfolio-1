@@ -1,0 +1,118 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', monospace;
+  color: #4d4d00;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.sidebar {
+  width: 25%;
+  background-color: #bfc9b6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.main-content {
+  width: 75%;
+  background-color: #dde2d8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+/* Profile Section */
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #664400;
+}
+
+/* Buttons */
+.nav-buttons {
+  width: 100%;
+  text-align: center;
+}
+
+.nav-buttons button {
+  margin: 15px 0;
+  padding: 15px;
+  width: 80%;
+  max-width: 250px;
+  cursor: pointer;
+  background-color: #dde2d8;
+  border: 2px solid #664400;
+  color: #664400;
+  font-family: 'Copperplate', sans-serif;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-buttons button:hover {
+  background-color: #bfc9b6;
+}
+
+/* Links Section */
+.links {
+  margin-top: 30px;
+}
+
+.links a {
+  display: block;
+  text-decoration: none;
+  color: #4d4d00;
+  margin: 8px 0;
+  font-family: 'Courier New', monospace;
+  text-align: center;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+/* Resume Button */
+.resume-button {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.resume-button button {
+  font-family: 'Copperplate', sans-serif;
+  background-color: #dde2d8;
+  border: 2px solid #664400;
+  color: #664400;
+  padding: 15px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.resume-button button:hover {
+  background-color: #bfc9b6;
+}

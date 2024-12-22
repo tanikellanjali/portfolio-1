@@ -1,0 +1,22 @@
+.main-content {
+    text-align: center;
+    padding: 40px;
+    color: #4a4a4a;
+  }
+  
+  h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
