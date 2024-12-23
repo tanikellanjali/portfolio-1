@@ -19,3 +19,11 @@ h1 {
     font-family: 'Papyrus', sans-serif;
     text-align: center;
 }
+.profile-pic.clickable {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.profile-pic.clickable:hover {
+    transform: scale(1.05);
+}

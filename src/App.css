@@ -10,7 +10,7 @@ body, html {
 
 .container {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
 }
 
@@ -35,6 +35,7 @@ body, html {
   text-align: center;
   padding: 40px;
   box-sizing: border-box;
+  flex-grow:1;
 }
 
 /* Profile Section */
@@ -117,33 +118,94 @@ body, html {
   background-color: #bfc9b6;
 }
 .custom-link {
-  text-decoration: none;
-  color: #4d4d00;
-  font-weight: bold;
+    text-decoration: none;
+    color: #4d4d00;
+    font-weight: bold;
 }
 
 .custom-link:hover {
-  color: #664400;
+    color: #664400;
 }
 
 .paper-link {
-  text-decoration: none;
-  color: #4d4d00;
-  display: block;
-  text-align: center;
-  margin: 10px 0;
-  font-family: 'Courier New', monospace;
+    text-decoration: none;
+    color: #4d4d00;
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'Courier New', monospace;
 }
 
 .paper-link:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .profile-pic {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 15px;
-  border: 3px solid #664400;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #664400;
+}
+/* Responsive Design for Tablets */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .main-content {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* Mobile View - Single Column Layout */
+@media (max-width: 768px) {
+  .sidebar {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .main-content {
+    width: 100%;
+    padding: 20px;
+  }
+
+  button {
+    width: 90%;
+  }
+}
+
+/* Extra Small Screens (Phones) */
+@media (max-width: 480px) {
+  .sidebar {
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .main-content {
+    padding: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .experience-card, .project-card, .article-card {
+    width: 95%;
+  }
 }

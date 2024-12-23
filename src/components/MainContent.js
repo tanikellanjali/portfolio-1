@@ -5,12 +5,24 @@ import Projects from './Projects';
 import Articles from './Articles';
 
 const MainContent = ({ page }) => {
+    const renderPage = () => {
+        switch (page) {
+            case 'introduction':
+                return <Introduction />;
+            case 'experience':
+                return <Experience />;
+            case 'projects':
+                return <Projects />;
+            case 'articles':
+                return <Articles />;
+            default:
+                return <Introduction />;
+        }
+    };
+
     return (
         <div className="main-content">
-            {page === 'introduction' && <Introduction />}
-            {page === 'experience' && <Experience />}
-            {page === 'projects' && <Projects />}
-            {page === 'articles' && <Articles />}
+            {renderPage()}
         </div>
     );
 };

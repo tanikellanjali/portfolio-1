@@ -19,11 +19,6 @@ const Introduction = () => {
                                             ,NLP and Generative AI
 
             </p>
-            <div className="resume-button">
-                <a href="/resume.docx" download="Anjali_Resume.docx">
-                    <button>Download Resume</button>
-                </a>
-            </div>
         </div>
     );
 };

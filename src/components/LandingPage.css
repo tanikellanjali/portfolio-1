@@ -1,0 +1,95 @@
+.landing-container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  /* Center vertically */
+    background-color: #dde2d8;
+    min-height: 100vh;
+    width: 100vw;
+
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic.clickable {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.profile-pic.clickable:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    font-family: 'Papyrus', sans-serif;
+    margin: 10px 0;
+}
+
+p {
+    font-family: 'Courier New', monospace;
+    margin-bottom: 30px;
+    color: #4d4d00;
+}
+
+.nav-buttons-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Add space between buttons */
+    margin: 20px 0;
+}
+
+.nav-buttons-row button {
+    padding: 15px 40px;
+    font-family: 'Copperplate', sans-serif;
+    cursor: pointer;
+    background-color: #dde2d8;
+    border: 2px solid #664400;
+    color: #664400;
+    transition: background-color 0.3s ease;
+}
+
+.nav-buttons-row button:hover {
+    background-color: #bfc9b6;
+}
+
+.landing-links {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.landing-links a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #4d4d00;
+    font-family: 'Courier New', monospace;
+}
+
+.landing-links a:hover {
+    text-decoration: underline;
+}
+.resume-button {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .resume-button button {
+    font-family: 'Copperplate', sans-serif;
+    background-color: #dde2d8;
+    border: 2px solid #664400;
+    color: #664400;
+    padding: 15px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resume-button button:hover {
+    background-color: #bfc9b6;
+  }
