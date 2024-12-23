@@ -5,14 +5,22 @@ const Introduction = () => {
         <div className="introduction">
             <h2>Introduction</h2>
             <p>
-                I'm an AI developer with experience in React, Node.js, and data science. 
-                I specialize in NLP, distributed systems, and optimization techniques.
+            Aspiring PhD candidate with a strong foundation in AI, machine learning, and big data systems. 
+            Experienced in developing AI-driven projects, NLP systems, and reinforcement learning models. 
+            Passionate about prediction algorithms, distributed AI systems, and optimizing large language models (LLMs) for real-world applications.
+            Interested in advancing research in fractal-based AI, GPU optimization, and reinforcement learning for LLM fine-tuning.
             </p>
             <p>
-                <strong>Interests:</strong> Game theory, LLMs, transporter problems, and operations research.
+                <strong>Interests:</strong> AI and Machine Learning Optimization
+                                            ,Reinforcement Learning and Fine-Tuning
+                                            ,Large Language Models (LLMs)
+                                            ,Pattern Recognition and Prediction Algorithms
+                                            ,Big Data and Distributed AI Systems
+                                            ,NLP and Generative AI
+
             </p>
             <div className="resume-button">
-                <a href="/resume.csv" download="Anjali_Resume.csv">
+                <a href="/resume.docx" download="Anjali_Resume.docx">
                     <button>Download Resume</button>
                 </a>
             </div>
