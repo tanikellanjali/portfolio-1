@@ -3,6 +3,7 @@ import Introduction from './Introduction';
 import Experience from './Experience';
 import Projects from './Projects';
 import Articles from './Articles';
+import Education from './Education';
 
 const MainContent = ({ page }) => {
     const renderPage = () => {
@@ -15,6 +16,8 @@ const MainContent = ({ page }) => {
                 return <Projects />;
             case 'articles':
                 return <Articles />;
+            case 'education':
+                return <Education />;   
             default:
                 return <Introduction />;
         }

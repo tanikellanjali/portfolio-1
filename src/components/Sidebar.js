@@ -11,10 +11,12 @@ const Sidebar = ({ setPage }) => {
                     onClick={() => setPage('landing')}  
                 />
                 <h1>Anjali Tanekella</h1>
+                <p>AI Developer | Data Scientist | GenAI Developer | ML Engineer | Aspiring PhD Candidate</p>
             </div>
 
             <div className="nav-buttons">
                 <button onClick={() => setPage('introduction')}>Introduction</button>
+                <button onClick ={() => setPage('education')}>Education</button>
                 <button onClick={() => setPage('experience')}>Experience</button>
                 <button onClick={() => setPage('projects')}>Sample Projects</button>
                 <button onClick={() => setPage('articles')}>Articles</button>

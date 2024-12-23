@@ -176,7 +176,6 @@ body, html {
 }
 
 /* Mobile View - Single Column Layout */
-/* Mobile View - Single Column Layout */
 @media (max-width: 768px) {
   .sidebar, .main-content, .landing-container {
     flex-direction: column;

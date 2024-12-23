@@ -12,11 +12,12 @@ const LandingPage = ({ setPage }) => {
                     onClick={() => setPage('introduction')}
                 />
                 <h1>Anjali Tanekella</h1>
-                <p>AI Developer | Aspiring PhD Candidate</p>
+                <p>AI Developer | Data Scientist | GenAI Developer | ML Engineer | Aspiring PhD Candidate</p>
             </div>
 
             <div className="nav-buttons-row">
                 <button onClick={() => setPage('introduction')}>Introduction</button>
+                <button onClick={() => setPage('education')}>Education</button>
                 <button onClick={() => setPage('experience')}>Experience</button>
                 <button onClick={() => setPage('projects')}>Sample Projects</button>
                 <button onClick={() => setPage('articles')}>Articles</button>
