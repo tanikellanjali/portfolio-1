@@ -20,6 +20,9 @@ const LandingPage = ({ setPage }) => {
                 <button onClick={() => setPage('experience')}>Experience</button>
                 <button onClick={() => setPage('projects')}>Sample Projects</button>
                 <button onClick={() => setPage('articles')}>Articles</button>
+                <a href="/resume.docx" download="Anjali_Resume.docx">
+                    <button>Download Resume</button>
+                </a>
             </div>
 
             <div className="landing-links">
@@ -28,11 +31,6 @@ const LandingPage = ({ setPage }) => {
                 <a href="https://www.linkedin.com/in/tanekellaanjali/">LinkedIn</a>
                 <a href="https://github.com/tanikellanjali">GitHub</a>
                 <a href="https://medium.com/@anjalitanikella">Medium</a>
-            </div>
-            <div className="resume-button">
-                <a href="/resume.docx" download="Anjali_Resume.docx">
-                    <button>Download Resume</button>
-                </a>
             </div>
         </div>
     );
