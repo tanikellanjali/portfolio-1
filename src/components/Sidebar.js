@@ -18,7 +18,7 @@ const Sidebar = ({ setPage }) => {
                 <button onClick={() => setPage('experience')}>Experience</button>
                 <button onClick={() => setPage('projects')}>Sample Projects</button>
                 <button onClick={() => setPage('articles')}>Articles</button>
-                <a href="/resume.docx" download="Anjali_Resume.docx">
+                <a href="/resume.docx" download="Anjali_Resume.docx" type="application/vnd.openxmlformats-officedocument.wordprocessingml.document">
                     <button>Download Resume</button>
                 </a>
             </div>
